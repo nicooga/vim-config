@@ -85,8 +85,8 @@ map <D-N>       :CommandTFlush<CR>:CommandT<CR>
 map <leader>f   :CommandTFlush<CR>:CommandT<CR>
 
 " ctags with rails load path
-map <leader>rt  :!rails runner 'puts $LOAD_PATH.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
-map <leader>T   :!rails runner 'puts $LOAD_PATH.join(" ")' \| xargs rdoc -f tags<CR>
+map <leader>rt  :!/usr/local/bin/ctags -R lib<CR>
+map <leader>T   :!rdoc -f tags lib<CR>
 
 " Git blame
 map <leader>g   :Gblame<CR>
