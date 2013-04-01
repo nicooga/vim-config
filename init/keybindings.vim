@@ -5,10 +5,10 @@ let mapleader = ","
 let maplocalleader = ";"
 
 " kj - The intuitive way to get out of insert mode
-imap kj         <Esc>
+" imap kj         <Esc>
 
 " jj - The most intuitive way to get out of insert mode. Like a boss!
-imap jj         <Esc>
+" imap jj         <Esc>
 
 " Make Y consistent with D and C
 map Y           y$
@@ -86,7 +86,7 @@ map <leader>f   :CommandTFlush<CR>:CommandT<CR>
 
 " ctags with rails load path
 map <leader>rt  :!/usr/local/bin/ctags -R lib<CR>
-map <leader>T   :!rdoc -f tags lib<CR>
+map <leader>T   :! gem install rdoc-tags; rdoc -f tags lib<CR>
 
 " Git blame
 map <leader>g   :Gblame<CR>
