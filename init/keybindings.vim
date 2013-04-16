@@ -86,7 +86,7 @@ map <leader>f   :CommandTFlush<CR>:CommandT<CR>
 
 " ctags with rails load path
 map <leader>rt  :!/usr/local/bin/ctags -R lib<CR>
-map <leader>T   :! gem install rdoc-tags; rdoc -f tags lib<CR>
+map <leader>T   :! gem install rdoc-tags; rdoc -f tags lib spec<CR>
 
 " Git blame
 map <leader>g   :Gblame<CR>
