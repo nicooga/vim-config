@@ -5,4 +5,5 @@ if &t_Co == 256
 endif
 
 set background=dark
-colorscheme solarized
+colorscheme railscasts
+highlight Search guifg=red ctermfg=NONE guibg=yellow ctermbg=235 gui=italic cterm=underline
