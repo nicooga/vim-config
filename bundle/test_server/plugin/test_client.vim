@@ -3,12 +3,12 @@ if !exists("g:test_server_pipe")
 endif
 
 let g:test_cmd_for_test_pattern = {
-      \ '_spec.rb$': 'bundle exec rspec',
+      \ '_spec.rb$': 'bundle exec rspec -d',
       \ '\.feature$': 'bundle exec cucumber',
       \}
 
 let g:test_cmd_for_src_pattern = {
-      \ '\.rb$': 'bundle exec rspec',
+      \ '\.rb$': 'bundle exec rspec -d',
       \ '\.haml$': 'bundle exec rspec',
       \}
 
