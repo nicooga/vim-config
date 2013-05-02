@@ -126,3 +126,6 @@
 [submodule "bundle/hammer.vim"]
 	path = bundle/hammer.vim
 	url = https://github.com/matthias-guenther/hammer.vim.git
+[submodule "bundle/edit-plus"]
+	path = bundle/edit-plus
+	url = git://github.com/mgamba/edit-plus.git
