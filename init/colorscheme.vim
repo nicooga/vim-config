@@ -5,5 +5,9 @@ if &t_Co == 256
 endif
 
 set background=dark
-colorscheme railscasts
+if has("gui_macvim")
+  colorscheme railscasts
+else
+  colorscheme vividchalk
+endif
 highlight Search guifg=red ctermfg=NONE guibg=yellow ctermbg=235 gui=italic cterm=underline
