@@ -4,6 +4,7 @@ if &t_Co == 256
   let g:solarized_termcolors=256
 endif
 
-set background=dark
-colorscheme grb256
-highlight Search guifg=red ctermfg=NONE guibg=yellow ctermbg=235 gui=italic cterm=underline
+colorscheme kruby
+if has('gui_running')
+  
+endif

@@ -47,6 +47,7 @@ set statusline+=%l/%L           " Cursor line/total lines
 set statusline+=\ %P            " Percent through file
 
 set laststatus=2                " Always show statusline
+set clipboard=unnamedplus
 
 set incsearch                   " Incremental search
 set history=1024                " History size

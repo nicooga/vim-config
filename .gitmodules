@@ -129,3 +129,24 @@
 [submodule "bundle/edit-plus"]
 	path = bundle/edit-plus
 	url = git://github.com/mgamba/edit-plus.git
+[submodule "bundle/greplace"]
+	path = bundle/greplace
+	url = https://github.com/skwp/greplace.vim.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "bundle/vim-ruby-xmpfilter"]
+	path = bundle/vim-ruby-xmpfilter
+	url = https://github.com/t9md/vim-ruby-xmpfilter
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
+	url = git@github.com:flazz/vim-colorschemes.git
+[submodule "bundle/vim-indent-guides"]
+	path = bundle/vim-indent-guides
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/rename2"]
+	path = bundle/rename2
+	url = https://github.com/vim-scripts/Rename2
