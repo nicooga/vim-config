@@ -42,10 +42,6 @@
 	path = bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
 	ignore = dirty
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
-	ignore = dirty
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
@@ -147,3 +143,6 @@
 [submodule "bundle/rename2"]
 	path = bundle/rename2
 	url = https://github.com/vim-scripts/Rename2
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
