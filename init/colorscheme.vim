@@ -6,5 +6,4 @@ endif
 
 colorscheme kruby
 if has('gui_running')
-  
 endif
