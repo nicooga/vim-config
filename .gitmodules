@@ -16,3 +16,9 @@
 [submodule "bundle/vim-slim.vim"]
 	path = bundle/vim-slim.vim
 	url = https://github.com/slim-template/vim-slim
+[submodule "bundle/vim-indent-guides.vim"]
+	path = bundle/vim-indent-guides.vim
+	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "bundle/vim-commentary.vim"]
+	path = bundle/vim-commentary.vim
+	url = https://github.com/tpope/vim-commentary
