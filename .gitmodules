@@ -22,3 +22,6 @@
 [submodule "bundle/vim-commentary.vim"]
 	path = bundle/vim-commentary.vim
 	url = https://github.com/tpope/vim-commentary
+[submodule "bundle/syntastic.vim"]
+	path = bundle/syntastic.vim
+	url = https://github.com/scrooloose/syntastic
