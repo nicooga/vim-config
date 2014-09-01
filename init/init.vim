@@ -29,3 +29,6 @@ set list
 
 " Disable word wrap
 set nowrap
+
+" Use vim-airline tab style
+let g:airline#extensions#tabline#enabled = 1
