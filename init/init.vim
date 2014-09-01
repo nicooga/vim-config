@@ -32,3 +32,10 @@ set nowrap
 
 " Use vim-airline tab style
 let g:airline#extensions#tabline#enabled = 1
+
+" Navigate tabs using ctrl+arrows
+map <C-t><up> :tabr<cr>
+map <C-t><down> :tabl<cr>
+map <C-t><left> :tabp<cr>
+map <C-t><right> :tabn<cr>
+map <C-t><n> :tabnew<cr>
