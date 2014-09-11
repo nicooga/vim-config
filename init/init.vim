@@ -39,3 +39,14 @@ map <C-t><down> :tabl<cr>
 map <C-t><left> :tabp<cr>
 map <C-t><right> :tabn<cr>
 map <C-t><n> :tabnew<cr>
+
+" FFS use 2 spaces instead of tabs
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+" Use <F7> to indent files
+map <F7> mzgg=G`z<CR>
+
+" Set Airline Theme
+let g:airline_theme='molokai'
