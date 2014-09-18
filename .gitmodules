@@ -28,3 +28,6 @@
 [submodule "bundle/vim-conffee-script.vim"]
 	path = bundle/vim-conffee-script.vim
 	url = https://github.com/kchmck/vim-coffee-script
+[submodule "bundle/vim-fugitive.vim"]
+	path = bundle/vim-fugitive.vim
+	url = https://github.com/tpope/vim-fugitive
