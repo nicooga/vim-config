@@ -34,3 +34,12 @@
 [submodule "bundle/vim-less.vim"]
 	path = bundle/vim-less.vim
 	url = https://github.com/groenewege/vim-less
+[submodule "bundle/vim-eunuch.vim"]
+	path = bundle/vim-eunuch.vim
+	url = https://github.com/tpope/vim-eunuch
+[submodule "bundle/colorizer.vim"]
+	path = bundle/colorizer.vim
+	url = https://github.com/lilydjwg/colorizer
+[submodule "bundle/vCoolor.vim"]
+	path = bundle/vCoolor.vim
+	url = https://github.com/KabbAmine/vCoolor.vim
