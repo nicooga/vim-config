@@ -1,5 +1,6 @@
 if has('gui_running')
-  colorscheme distinguished
+  colorscheme gotham
+  set guifont=Inconsolata\ for\ Powerline:h18
 endif
 
 " Use the system clipboard

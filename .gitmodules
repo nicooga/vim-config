@@ -43,3 +43,6 @@
 [submodule "bundle/vCoolor.vim"]
 	path = bundle/vCoolor.vim
 	url = https://github.com/KabbAmine/vCoolor.vim
+[submodule "bundle/vim-gotham"]
+	path = bundle/vim-gotham
+	url = https://github.com/whatyouhide/vim-gotham
