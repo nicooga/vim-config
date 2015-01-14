@@ -1,5 +1,5 @@
 " ----------
-" Vim Config
+" Vim config
 " ----------
 "
 "

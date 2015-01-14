@@ -1,10 +1,12 @@
 if has('gui_running')
   colorscheme gotham
-  set guifont=Inconsolata\ for\ Powerline:h18
+  set guifont=Sauce\ Code\ Powerline:h13
+else
+  colorscheme gotham256
 endif
 
 " Use the system clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " Use dark background, ffs I need my corneas
 set background=dark
@@ -41,7 +43,7 @@ map <C-t><left> :tabp<cr>
 map <C-t><right> :tabn<cr>
 map <C-t><n> :tabnew<cr>
 
-" FFS use 2 spaces instead of tabs
+" Use 2 spaces instead of tabs
 set expandtab
 set tabstop=2
 set shiftwidth=2
