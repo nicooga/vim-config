@@ -46,3 +46,6 @@
 [submodule "bundle/vim-gotham"]
 	path = bundle/vim-gotham
 	url = https://github.com/whatyouhide/vim-gotham
+[submodule "bundle/vim-haml"]
+	path = bundle/vim-haml
+	url = https://github.com/tpope/vim-haml
