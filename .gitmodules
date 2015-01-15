@@ -49,3 +49,6 @@
 [submodule "bundle/vim-haml"]
 	path = bundle/vim-haml
 	url = https://github.com/tpope/vim-haml
+[submodule "bundle/SudoEdit"]
+	path = bundle/SudoEdit
+	url = https://github.com/chrisbra/SudoEdit.vim
