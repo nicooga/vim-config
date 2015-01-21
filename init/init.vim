@@ -53,3 +53,6 @@ map <F7> mzgg=G`z<CR>
 
 " Set Airline Theme
 let g:airline_theme='molokai'
+
+" Use word wrap for long lines
+set wrap
