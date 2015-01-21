@@ -1,8 +1,8 @@
 if has('gui_running')
-  colorscheme gotham
   set guifont=Sauce\ Code\ Powerline:h13
+  colorscheme muon
 else
-  colorscheme gotham256
+  colorscheme muon
 endif
 
 " Use the system clipboard
@@ -52,7 +52,7 @@ set shiftwidth=2
 map <F7> mzgg=G`z<CR>
 
 " Set Airline Theme
-let g:airline_theme='molokai'
+let g:airline_theme='base16'
 
 " Use word wrap for long lines
 set wrap

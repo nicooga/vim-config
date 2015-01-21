@@ -16,9 +16,6 @@
 [submodule "bundle/vim-slim.vim"]
 	path = bundle/vim-slim.vim
 	url = https://github.com/slim-template/vim-slim
-[submodule "bundle/vim-indent-guides.vim"]
-	path = bundle/vim-indent-guides.vim
-	url = https://github.com/nathanaelkane/vim-indent-guides
 [submodule "bundle/vim-commentary.vim"]
 	path = bundle/vim-commentary.vim
 	url = https://github.com/tpope/vim-commentary
@@ -55,3 +52,9 @@
 [submodule "bundle/vim-easygrep"]
 	path = bundle/vim-easygrep
 	url = https://github.com/dkprice/vim-easygrep
+[submodule "bundle/Muon"]
+	path = bundle/Muon
+	url = https://github.com/gregsexton/Muon
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine
