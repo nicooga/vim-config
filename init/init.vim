@@ -43,7 +43,11 @@ map <C-t><left> :tabp<cr>
 map <C-t><right> :tabn<cr>
 map <C-t><n> :tabnew<cr>
 
+" Set leader key
+let mapleader=','
+
 " Use 2 spaces instead of tabs
+
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -56,3 +60,6 @@ let g:airline_theme='base16'
 
 " Use word wrap for long lines
 set wrap
+
+" Let identLine and vim-json play be nice to each other
+let g:IndentLine_noConcealCursor=""
