@@ -1,6 +1,3 @@
-autocmd BufNewFile,BufRead *.jbuilder set filetype=ruby
-autocmd BufNewFile,BufRead Guardfile set filetype=rubyo
-
 if has('gui_running')
   let s:bcs = b:current_syntax
   unlet b:current_syntax
