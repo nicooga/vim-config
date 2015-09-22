@@ -1,5 +1,5 @@
 if has('gui_running')
-  set guifont=Sauce\ Code\ Powerline:h13
+  set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 12
   colorscheme muon
 else
   colorscheme muon
@@ -42,6 +42,11 @@ map <C-t><down> :tabl<cr>
 map <C-t><left> :tabp<cr>
 map <C-t><right> :tabn<cr>
 map <C-t><n> :tabnew<cr>
+
+
+" Use Tab key to indent blocks
+map <Tab> >gv
+map <S-Tab> <gv
 
 " Set leader key
 let mapleader=','
