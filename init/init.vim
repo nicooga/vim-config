@@ -6,7 +6,7 @@ else
 endif
 
 " Use the system clipboard
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " Use dark background, ffs I need my corneas
 set background=dark
