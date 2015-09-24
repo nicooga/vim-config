@@ -74,3 +74,6 @@ set wildignore+=*/bower_components/*,*/node_modules
 
 " Ignore HTML warnings realted to Angular
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
+
+" Enable plugins to access filetype
+filetype plugin on
