@@ -1,5 +1,5 @@
 if has('gui_running')
-  set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 12
+  set guifont=Source\ Code\ Pro\ for\ Powerline\ 10
   colorscheme muon
 else
   colorscheme muon
