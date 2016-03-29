@@ -1,6 +1,6 @@
 if has('gui_running')
-  set guifont=Source\ Code\ Pro\ for\ Powerline\ 10
-  colorscheme muon
+  set guifont=monofur\ for\ Powerline\ Bold\ 10
+  colorscheme oceandeep
 else
   colorscheme muon
 endif
@@ -36,29 +36,10 @@ set nowrap
 " Use vim-airline tab style
 let g:airline#extensions#tabline#enabled = 1
 
-" Navigate tabs using ctrl+arrows
-map <C-t><up> :tabr<cr>
-map <C-t><down> :tabl<cr>
-map <C-t><left> :tabp<cr>
-map <C-t><right> :tabn<cr>
-map <C-t><n> :tabnew<cr>
-
-
-" Use Tab key to indent blocks
-map <Tab> >gv
-map <S-Tab> <gv
-
-" Set leader key
-let mapleader=','
-
 " Use 2 spaces instead of tabs
-
 set expandtab
 set tabstop=2
 set shiftwidth=2
-
-" Use <F7> to indent files
-map <F7> mzgg=G`z<CR>
 
 " Set Airline Theme
 let g:airline_theme='base16'
