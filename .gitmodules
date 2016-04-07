@@ -97,9 +97,6 @@
 [submodule "bundle/oceandeep"]
 	path = bundle/oceandeep
 	url = https://github.com/vim-scripts/oceandeep
-[submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim
@@ -112,6 +109,12 @@
 [submodule "bundle/vim-airline-themes"]
 	path = bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
+[submodule "bundle/vimerl"]
+	path = bundle/vimerl
+	url = https://github.com/jimenezrick/vimerl
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir
