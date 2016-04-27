@@ -109,3 +109,9 @@
 [submodule "bundle/yajs.vim"]
 	path = bundle/yajs.vim
 	url = https://github.com/othree/yajs.vim
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "bundle/vim-elixir"]
+	path = bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir
