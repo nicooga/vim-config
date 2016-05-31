@@ -1,6 +1,6 @@
 if has('gui_running')
   set guifont=monofur\ for\ Powerline\ Bold\ 10
-  colorscheme oceandeep
+  colorscheme eva
 else
   colorscheme muon
 endif
