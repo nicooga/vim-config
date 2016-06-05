@@ -1,8 +1,8 @@
 if has('gui_running')
   set guifont=monofur\ for\ Powerline\ Bold\ 10
-  colorscheme eva
+  colorscheme random
 else
-  colorscheme muon
+  colorscheme gotham256
 endif
 
 " Use the system clipboard

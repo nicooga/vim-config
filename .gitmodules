@@ -127,3 +127,18 @@
 [submodule "bundle/yaml.vim.git"]
 	path = bundle/yaml.vim.git
 	url = git@github.com:roalddevries/yaml.vim.git
+[submodule "bundle/eva01.vim"]
+	path = bundle/eva01.vim
+	url = https://github.com/hachy/eva01.vim
+[submodule "bundle/vim-crystallite"]
+	path = bundle/vim-crystallite
+	url = https://github.com/tomsik68/vim-crystallite
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx
+[submodule "bundle/vim-project.git"]
+	path = bundle/vim-project.git
+	url = https://github.com/amiorin/vim-project.git
+[submodule "bundle/random.vim"]
+	path = bundle/random.vim
+	url = https://github.com/vim-scripts/random.vim
