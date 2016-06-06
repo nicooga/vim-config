@@ -142,3 +142,6 @@
 [submodule "bundle/random.vim"]
 	path = bundle/random.vim
 	url = https://github.com/vim-scripts/random.vim
+[submodule "bundle/vim-colors_duotones"]
+	path = bundle/vim-colors_duotones
+	url = https://github.com/atelierbram/vim-colors_duotones
