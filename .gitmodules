@@ -145,3 +145,9 @@
 [submodule "bundle/vim-colors_duotones"]
 	path = bundle/vim-colors_duotones
 	url = https://github.com/atelierbram/vim-colors_duotones
+[submodule "bundle/vim-stylus"]
+	path = bundle/vim-stylus
+	url = https://github.com/wavded/vim-stylus
+[submodule "bundle/focus.vim"]
+	path = bundle/focus.vim
+	url = https://github.com/merlinrebrovic/focus.vim
