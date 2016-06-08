@@ -133,9 +133,6 @@
 [submodule "bundle/vim-crystallite"]
 	path = bundle/vim-crystallite
 	url = https://github.com/tomsik68/vim-crystallite
-[submodule "bundle/vim-jsx"]
-	path = bundle/vim-jsx
-	url = https://github.com/mxw/vim-jsx
 [submodule "bundle/vim-project.git"]
 	path = bundle/vim-project.git
 	url = https://github.com/amiorin/vim-project.git
