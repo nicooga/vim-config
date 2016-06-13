@@ -148,3 +148,12 @@
 [submodule "bundle/focus.vim"]
 	path = bundle/focus.vim
 	url = https://github.com/merlinrebrovic/focus.vim
+[submodule "bundle/syntastic-react"]
+	path = bundle/syntastic-react
+	url = https://github.com/jaxbot/syntastic-react
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script
